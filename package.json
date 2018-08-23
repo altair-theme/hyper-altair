@@ -1,0 +1,19 @@
+{
+	"name": "hyper-altair",
+	"version": "1.0.0",
+	"description": "Elegant theme with vivid colors",
+	"license": "MIT",
+	"repository": "vsailev/hyper-altair",
+	"author": {
+		"name": "vsailev",
+		"email": "vsailev@outlook.com",
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"hyper",
+		"altair",
+		"altair-theme",
+	]
+}
