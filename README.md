@@ -6,7 +6,7 @@
 <p align="center">  
   <br>
   <h6 align="center">Overview</h6>
-  <p align="center">Altair is a elegant, customizableand has vivid colors just for Hyper.</p>
+  <p align="center">Altair is a elegant, customizable and has vivid colors just for Hyper.</p>
 </p>
 <br>
 
@@ -22,7 +22,6 @@ Install Altair.
 2. Add `hyper-altair` to the `plugins` array.
 3. Enjoy Altair.
 
-<br>
 <br>
 
 ## Related
