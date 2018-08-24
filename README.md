@@ -1,11 +1,11 @@
 <h1 align="center">
-	<img src="https://github.com/vsailev/hyper-altair/raw/master/public/assets/logo.svg" width="100" alt="icon"><br>
+	<img src="https://cdn.rawgit.com/vsailev/hyper-altair/master/assets/logo.svg" width="70" alt="logo"><br>
 	Altair
 	<br>
 </h1>
 <br>
 <p align="center">  
-	<img src="https://github.com/vsailev/hyper-altair/raw/master/public/assets/screenshot.png" width="1000" alt="icon"><br>
+	<img src="https://raw.githubusercontent.com/vsailev/hyper-altair/master/assets/screenshot.png" width="800" alt="banner"><br>
 	<h6 align="center">Overview</h6>
 	<p align="center">Altair is a elegant, customizable and has vivid colors just for Hyper.</p>
 </p>
