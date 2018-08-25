@@ -12,23 +12,24 @@
 <br>
 
 ## Install
-Install Altair.
+Install Altair either:
 
 ###### The fastest way
 1. `hyper i hyper-altair`
-2. Enjoy Altair.
+2. Taddaa! Enjoy.
 
 ###### The old way
 1. Edit `~/.hyper.js`.
 2. Add `hyper-altair` to the `plugins` array.
-3. Enjoy Altair.
+3. Taddaa! Enjoy.
 
 <br>
 
-## Related
+## The Family
 
+- [hyper-altair](https://github.com/vsailev/hyper-altair) - Hyper version
+- [terminus-altair](https://github.com/vsailev/terminus-altair) - Terminus version
 - [vscode-altair](https://github.com/vsailev/vscode-altair) - VS Code version
-
 
 ## License
 
