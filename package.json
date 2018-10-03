@@ -2,19 +2,22 @@
 	"name": "hyper-altair",
 	"version": "1.2.0",
 	"description": "Altair is a elegant, customizable and has vivid colors just for Hyper.",
-	"license": "MIT",
-	"repository": "vsailev/hyper-altair",
-	"author": {
-		"name": "vsailev",
-		"email": "vsailev@outlook.com",
-		"url": "https://github.com/vsailev"
-	},
-	"files": [
-		"index.js"
-	],
-	"keywords": [
+  "keywords": [
 		"hyper",
 		"altair",
-		"altair-theme"
-	]
+		"altair-theme",
+    "color-scheme",
+    "theme"
+  ],
+  "main": "index.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/vsailev/hyper-altair.git"
+  },
+  "author": {
+    "name": "vsailev",
+    "email": "vsailev@outlook.com",
+    "url": "https://github.com/vsailev"
+  },
+  "license": "MIT"
 }

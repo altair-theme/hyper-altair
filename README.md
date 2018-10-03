@@ -1,14 +1,42 @@
 <h1 align="center">
-	<img src="https://cdn.rawgit.com/vsailev/hyper-altair/master/assets/logo.svg" width="70" alt="logo"><br>
-	Altair
-	<br>
+  <a href="https://github.com/vsailev/hyper-altair">
+    <img alt="Altair" src="https://cdn.rawgit.com/vsailev/hyper-altair/master/assets/logo.svg" width="70">
+  </a>
+  <br>Altair<br>
 </h1>
-<br>
-<p align="center">  
-	<img src="https://raw.githubusercontent.com/vsailev/hyper-altair/master/assets/screenshot.png" width="800" alt="banner"><br>
-	<h6 align="center">Overview</h6>
-	<p align="center">Altair is a elegant, customizable and has vivid colors just for Hyper.</p>
+
+<h6 align="center">Overview</h6>
+<h4 align="center">
+  Altair is a elegant, customizable and has vivid colors just for <a href="https://github.com/zeit/hyper" target="_blank"><code>Hyper</code></a>.
+</h4>
+
+<p align="center">
+  <a href="https://github.com/bnb/awesome-hyper">
+    <img src="https://img.shields.io/badge/awesome-hyper-a081a0.svg?longCache=true&style=for-the-badge"
+      alt="Awesome" />
+  </a>
+  <a href="https://www.npmjs.com/package/hyper-altair">
+    <img src="https://img.shields.io/npm/v/hyper-altair/latest.svg?style=for-the-badge"
+      alt="Lastest Version" />
+  </a>
+  <a href="https://www.npmjs.com/package/hyper-altair">
+    <img src="https://img.shields.io/npm/dt/hyper-altair.svg?style=for-the-badge"
+      alt="Downloads" />
+  </a>
 </p>
+
+<div align="center">
+  <h4>
+    <a href="#install">Install</a> |
+    <a href="#the-family">The Family</a>
+  </h4>
+</div>
+
+
+<p align="center">
+  <img alt="Altair Screenshot" src="https://raw.githubusercontent.com/vsailev/hyper-altair/master/assets/screenshot.png" width="800">
+</p>
+
 <br>
 
 ## Install
