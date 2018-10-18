@@ -12,12 +12,12 @@
   "main": "index.js",
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/vsailev/hyper-altair.git"
+    "url" : "https://github.com/yxuko/hyper-altair.git"
   },
   "author": {
-    "name": "vsailev",
-    "email": "vsailev@outlook.com",
-    "url": "https://github.com/vsailev"
+    "name": "yxuko",
+    "email": "yxuko@outlook.com",
+    "url": "https://github.com/yxuko"
   },
   "license": "MIT"
 }

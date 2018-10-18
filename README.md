@@ -1,6 +1,6 @@
 <h1 align="center">
-  <a href="https://github.com/vsailev/hyper-altair">
-    <img alt="Altair" src="https://cdn.rawgit.com/vsailev/hyper-altair/master/assets/logo.svg" width="70">
+  <a href="https://github.com/yxuko/hyper-altair">
+    <img alt="Altair" src="https://cdn.rawgit.com/yxuko/hyper-altair/master/assets/logo.svg" width="70">
   </a>
   <br>Altair<br>
 </h1>
@@ -34,7 +34,7 @@
 
 
 <p align="center">
-  <img alt="Altair Screenshot" src="https://raw.githubusercontent.com/vsailev/hyper-altair/master/assets/screenshot.png" width="800">
+  <img alt="Altair Screenshot" src="https://raw.githubusercontent.com/yxuko/hyper-altair/master/assets/screenshot.png" width="800">
 </p>
 
 <br>
@@ -55,10 +55,10 @@ Install Altair either:
 
 ## The Family
 
-- [hyper-altair](https://github.com/vsailev/hyper-altair) - Hyper version
-- [terminus-altair](https://github.com/vsailev/terminus-altair) - Terminus version
-- [vscode-altair](https://github.com/vsailev/vscode-altair) - VS Code version
+- [hyper-altair](https://github.com/yxuko/hyper-altair) - Hyper version
+- [terminus-altair](https://github.com/yxuko/terminus-altair) - Terminus version
+- [vscode-altair](https://github.com/yxuko/vscode-altair) - VS Code version
 
 ## License
 
-MIT © [vsailev](https://github.com/vsailev)
+MIT © [yxuko](https://github.com/yxuko)
