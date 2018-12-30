@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/yxuko/hyper-altair">
-    <img alt="Altair" src="https://cdn.rawgit.com/yxuko/hyper-altair/master/assets/logo.svg" width="70">
+    <img alt="Altair" src="https://cdn.jsdelivr.net/gh/yxuko/hyper-altair@master/assets/logo.svg" width="70">
   </a>
   <br>Altair<br>
 </h1>
