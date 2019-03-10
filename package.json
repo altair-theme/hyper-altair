@@ -1,18 +1,18 @@
 {
-	"name": "hyper-altair",
-	"version": "1.2.0",
-	"description": "Altair is a elegant, customizable and has vivid colors just for Hyper.",
+  "name": "hyper-altair",
+  "version": "1.3.0",
+  "description": "Altair is a elegant, customizable and has vivid colors just for Hyper.",
   "keywords": [
-		"hyper",
-		"altair",
-		"altair-theme",
+    "hyper",
+    "altair",
+    "altair-theme",
     "color-scheme",
     "theme"
   ],
   "main": "index.js",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/yxuko/hyper-altair.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yxuko/hyper-altair.git"
   },
   "author": {
     "name": "yxuko",
