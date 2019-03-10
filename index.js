@@ -1,13 +1,13 @@
 'use strict';
 const foregroundColorColor	= '#f3f4ef';
-const backgroundColor		= '#22242d';
-const red 					= '#ff1654';
-const green 				= '#06d6a0';
-const yellow 				= '#ffe66d';
-const blue 					= '#00abe7';
-const magenta 				= '#ff60b5';
-const cyan 					= '#7bdff2';
-const white 				= '#f9f9f9';
+const backgroundColor				= '#22242d';
+const red 									= '#ff1654';
+const green 								= '#06d6a0';
+const yellow 								= '#ffe66d';
+const blue 									= '#00abe7';
+const magenta 							= '#ff60b5';
+const cyan 									= '#7bdff2';
+const white 								= '#f9f9f9';
 
 exports.decorateConfig = (config) => {
 	return Object.assign({}, config, {
@@ -56,6 +56,9 @@ exports.decorateConfig = (config) => {
 			.tabs_list {
 				max-height: 40px;
 			}
+			.tab_tab {
+				background-color: rgba(0, 0, 0, 0.3)!important;
+			}
 			.tab_text {
 				height: 40px!important;
 			}
@@ -67,6 +70,15 @@ exports.decorateConfig = (config) => {
 			}
 			.terms_termsShifted {
 				margin-top: 74px;
+			}
+			.tab_tab.tab_active .tab_icon:hover {
+				background-color: hsla(0, 0%, 0%, 0.7)!important;
+			}
+			#hyper .tab_tab.tab_active .tab_icon:hover {
+				background-color: hsla(0, 100%, 50%, 0.7)!important;
+			}
+			.tab_tab.tab_active {
+				background-color: transparent!important;
 			}
 			.tab_tab.tab_hasActivity .tab_text {
 				animation: pulse-hyper 2s linear infinite!important;
