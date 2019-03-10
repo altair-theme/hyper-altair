@@ -50,6 +50,24 @@ exports.decorateConfig = (config) => {
 			.tab_hasActivity {
 					animation: bottomactivity 2s linear infinite;
 			}
+			.tabs_nav {
+				height: 40px!important;
+			}
+			.tabs_list {
+				max-height: 40px;
+			}
+			.tab_text {
+				height: 40px!important;
+			}
+			.tab_process {
+				margin-top: 3px;
+			}
+			.tab_icon {
+				top: 12px!important;
+			}
+			.terms_termsShifted {
+				margin-top: 74px;
+			}
 			.tab_tab.tab_hasActivity .tab_text {
 				animation: pulse-hyper 2s linear infinite!important;
 			}
