@@ -36,6 +36,24 @@ exports.decorateConfig = (config) => {
 			lightWhite: foregroundColorColor
 		},
 		css: `
+			@keyframes bottomactivity {
+				from,
+				to {
+					border-bottom: 1px solid transparent;
+				}
+				50% {
+					border-bottom: 1px solid #FFFA72;
+					color: #FFFA72;
+				}
+			}
+
+			.tab_hasActivity {
+					animation: bottomactivity 2s linear infinite;
+			}
+			.tab_tab.tab_hasActivity .tab_text {
+				animation: pulse-hyper 2s linear infinite!important;
+			}
+
 			/* Custom CSS */
 			${config.css}
 		`
