@@ -43,12 +43,22 @@ exports.decorateConfig = (config) => {
 				}
 				50% {
 					border-bottom: 1px solid #FFFA72;
-					color: #FFFA72;
 				}
 			}
-
+			@keyframes activity {
+				from,
+				to {
+					opacity: 0.4;
+				}
+				50% {
+					opacity: 1;
+				}
+			}
 			.tab_hasActivity {
 					animation: bottomactivity 2s linear infinite;
+			}
+			.tab_tab.tab_hasActivity span.tab_text {
+				animation: activity 2s linear infinite;
 			}
 			.tabs_nav {
 				height: 40px!important;
@@ -79,9 +89,6 @@ exports.decorateConfig = (config) => {
 			}
 			.tab_tab.tab_active {
 				background-color: transparent!important;
-			}
-			.tab_tab.tab_hasActivity .tab_text {
-				animation: pulse-hyper 2s linear infinite!important;
 			}
 
 			/* Custom CSS */
