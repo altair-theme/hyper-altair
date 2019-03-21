@@ -1,22 +1,22 @@
-'use strict';
-const foregroundColorColor	= '#f3f4ef';
-const backgroundColor				= '#22242d';
-const red 									= '#ff1654';
-const green 								= '#06d6a0';
-const yellow 								= '#ffe66d';
-const blue 									= '#00abe7';
-const magenta 							= '#ff60b5';
-const cyan 									= '#7bdff2';
-const white 								= '#f9f9f9';
+"use strict";
+const foregroundColorColor = "#f3f4ef";
+const backgroundColor = "#22242d";
+const red = "#ff1654";
+const green = "#06d6a0";
+const yellow = "#ffe66d";
+const blue = "#00abe7";
+const magenta = "#ff60b5";
+const cyan = "#7bdff2";
+const white = "#f9f9f9";
 
-exports.decorateConfig = (config) => {
+exports.decorateConfig = config => {
 	return Object.assign({}, config, {
 		backgroundColor,
 		foregroundColorColor,
-		borderColor: '#211f30',
-		cursorColor: '#b4b4ba',
+		borderColor: "#211f30",
+		cursorColor: "#b4b4ba",
 		cursorAccentColor: backgroundColor,
-		selectionColor: 'rgba(78, 205, 196, 0.4)',
+		selectionColor: "rgba(78, 205, 196, 0.4)",
 		colors: {
 			black: backgroundColor,
 			red,
@@ -26,7 +26,7 @@ exports.decorateConfig = (config) => {
 			magenta,
 			cyan,
 			white,
-			lightBlack: '#7a7a7a',
+			lightBlack: "#7a7a7a",
 			lightRed: red,
 			lightGreen: green,
 			lightYellow: yellow,
@@ -36,6 +36,9 @@ exports.decorateConfig = (config) => {
 			lightWhite: foregroundColorColor
 		},
 		css: `
+
+			/* Tab Activity */
+
 			@keyframes bottomactivity {
 				from,
 				to {
@@ -60,6 +63,9 @@ exports.decorateConfig = (config) => {
 			.tab_tab.tab_hasActivity span.tab_text {
 				animation: activity 2s linear infinite;
 			}
+
+			/* Custom Tabs */
+
 			.tabs_nav {
 				height: 40px!important;
 			}
@@ -84,7 +90,7 @@ exports.decorateConfig = (config) => {
 			.tab_tab.tab_active .tab_icon:hover {
 				background-color: hsla(0, 0%, 0%, 0.7)!important;
 			}
-			#hyper .tab_tab.tab_active .tab_icon:hover {
+			.tab_tab.tab_active .tab_icon:hover {
 				background-color: hsla(0, 100%, 50%, 0.7)!important;
 			}
 			.tab_tab.tab_active {
@@ -92,6 +98,7 @@ exports.decorateConfig = (config) => {
 			}
 
 			/* Custom CSS */
+
 			${config.css}
 		`
 	});
