@@ -39,6 +39,9 @@ exports.decorateConfig = config => {
 
 			/* Tab Activity */
 
+			.tab_hasActivity {
+				animation: bottomactivity 2s linear infinite;
+			}
 			@keyframes bottomactivity {
 				from,
 				to {
@@ -48,7 +51,11 @@ exports.decorateConfig = config => {
 					border-bottom: 1px solid #FFFA72;
 				}
 			}
-			@keyframes activity {
+			.tab_hasActivity span.tab_text {
+				animation: pulse 2s linear infinite;
+				color: ${colors.yellow};
+			}
+			@keyframes pulse {
 				from,
 				to {
 					opacity: 0.4;
@@ -57,13 +64,6 @@ exports.decorateConfig = config => {
 					opacity: 1;
 				}
 			}
-			.tab_hasActivity {
-					animation: bottomactivity 2s linear infinite;
-			}
-			.tab_tab.tab_hasActivity span.tab_text {
-				animation: activity 2s linear infinite;
-			}
-
 			/* Custom Tabs */
 
 			.tabs_nav {
