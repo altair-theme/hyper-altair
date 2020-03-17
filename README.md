@@ -1,8 +1,10 @@
 <h1 align="center">
   <a href="https://github.com/yxuko/hyper-altair">
-    <img alt="Altair" src="https://raw.githubusercontent.com/yxuko/hyper-altair/master/assets/logo.svg?sanitize=true" width="70">
+    <img alt="Altair" src="https://raw.githubusercontent.com/yxuko/hyper-altair/master/assets/logo.svg?sanitize=true" width="130">
   </a>
-  <br>Altair<br>
+  <br>
+  <br>
+  Altair
 </h1>
 
 <h6 align="center">Overview</h6>
@@ -43,10 +45,12 @@
 Install Altair either:
 
 ###### The fastest way
+
 1. `hyper i hyper-altair`
 2. Taddaa! Enjoy.
 
 ###### The old way
+
 1. Edit `~/.hyper.js`.
 2. Add `hyper-altair` to the `plugins` array.
 3. Taddaa! Enjoy.
