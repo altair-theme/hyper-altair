@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/yxuko/hyper-altair">
-    <img alt="Altair" src="https://raw.githubusercontent.com/yxuko/hyper-altair/master/assets/logo.svg?sanitize=true" width="130">
+    <img alt="Altair" src="https://raw.githubusercontent.com/altair-theme/.github/main/assets/logo.svg?sanitize=true" width="130">
   </a>
   <br>
   <br>
@@ -34,7 +34,6 @@
   </h4>
 </div>
 
-
 <p align="center">
   <img alt="Altair Screenshot" src="https://raw.githubusercontent.com/yxuko/hyper-altair/master/assets/screenshot.png" width="800">
 </p>
@@ -42,6 +41,7 @@
 <br>
 
 ## Install
+
 Install Altair either:
 
 ###### The fastest way
